@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "vanillalike:emerald_chestplate",
+    "vanillalike:amethyst_chestplate",
+    "minecraft:diamond_chestplate"
+  ]
+}

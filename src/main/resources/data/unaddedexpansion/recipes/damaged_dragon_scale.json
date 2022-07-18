@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dragon_egg"
+  },
+  "result": "unaddedexpansion:damaged_dragon_scale",
+  "count": 4
+}

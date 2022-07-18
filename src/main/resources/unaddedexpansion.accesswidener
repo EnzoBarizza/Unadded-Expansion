@@ -1,0 +1,12 @@
+accessWidener v2 named
+accessible method net/minecraft/block/RespawnAnchorBlock canCharge (Lnet/minecraft/block/BlockState;)Z
+accessible method net/minecraft/block/RespawnAnchorBlock explode (Lnet/minecraft/block/BlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;)V
+mutable field net/minecraft/item/Items OBSIDIAN Lnet/minecraft/item/Item;
+mutable field net/minecraft/item/Items CRYING_OBSIDIAN Lnet/minecraft/item/Item;
+mutable field net/minecraft/block/Blocks END_PORTAL_FRAME Lnet/minecraft/block/Block;
+mutable field net/minecraft/item/Items END_PORTAL_FRAME Lnet/minecraft/item/Item;
+accessible field net/minecraft/item/Item fireproof Z
+mutable field net/minecraft/item/Item fireproof Z
+
+#Legacy
+#accessible field net/minecraft/world/dimension/DimensionType THE_END Lnet/minecraft/world/dimension/DimensionType;

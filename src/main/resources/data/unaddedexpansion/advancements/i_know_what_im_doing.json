@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "item": "unaddedexpansion:emerald_chestplate"
+    },
+    "title": {
+      "translate": "advancements.i_know_what_im_doing.title"
+    },
+    "description": {
+      "translate": "advancements.i_know_what_im_doing.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "unaddedexpansion:enchanted_billionaire",
+  "criteria": {
+    "netherite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unaddedexpansion:emerald_helmet"
+            ],
+            "nbt": "{\"unenchanted\": true}"
+          },
+          {
+            "items": [
+              "unaddedexpansion:emerald_chestplate"
+            ],
+            "nbt": "{\"unenchanted\": true}"
+          },
+          {
+            "items": [
+              "unaddedexpansion:emerald_leggings"
+            ],
+            "nbt": "{\"unenchanted\": true}"
+          },
+          {
+            "items": [
+              "unaddedexpansion:emerald_boots"
+            ],
+            "nbt": "{\"unenchanted\": true}"
+          }
+        ]
+      }
+    }
+  }
+}

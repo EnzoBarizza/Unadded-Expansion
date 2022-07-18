@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "unaddedexpansion",
+  "version": "${version}",
+
+  "name": "Unadded Expasion",
+  "description": "Simple mod to add more vanilla-like items and tools to minecraft",
+  "authors": [
+    "Neuki"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/unadded-expansion",
+    "sources": "https://github.com/EnzoBarizza/Unadded-Expansion"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/unaddedexpansion/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "csm.neuki.unaddedexpansion.UnaddedExpansionMod"
+    ]
+  },
+  "mixins": [
+    "unaddedexpansion.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": ">=17"
+  },
+  "suggests": { },
+  "accessWidener" : "unaddedexpansion.accesswidener"
+}

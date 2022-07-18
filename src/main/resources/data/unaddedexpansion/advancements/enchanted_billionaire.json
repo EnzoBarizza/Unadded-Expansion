@@ -1,0 +1,55 @@
+{
+  "parent": "minecraft:story/shiny_gear",
+  "display": {
+    "icon": {
+      "item": "unaddedexpansion:emerald_chestplate",
+      "nbt": "{Enchantments:[{id:\"minecraft:mending\",lvl:1}]}"
+    },
+    "title": {
+      "translate": "advancements.billionaire.title"
+    },
+    "description": {
+      "translate": "advancements.billionaire.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "netherite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unaddedexpansion:emerald_helmet"
+            ],
+            "nbt": "{\"unenchanted\": false}"
+          },
+          {
+            "items": [
+              "unaddedexpansion:emerald_chestplate"
+            ],
+            "nbt": "{\"unenchanted\": false}"
+          },
+          {
+            "items": [
+              "unaddedexpansion:emerald_leggings"
+            ],
+            "nbt": "{\"unenchanted\": false}"
+          },
+          {
+            "items": [
+              "unaddedexpansion:emerald_boots"
+            ],
+            "nbt": "{\"unenchanted\": false}"
+          }
+        ]
+      }
+    }
+  }
+}
