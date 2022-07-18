@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:story/enter_the_end",
+  "display": {
+    "icon": {
+      "item": "unaddedexpansion:end_respawn_anchor"
+    },
+    "title": {
+      "translate": "advancements.charge_end_respawn_anchor.title"
+    },
+    "description": {
+      "translate": "advancements.charge_end_respawn_anchor.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "charge_end_respawn_anchor": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": [
+              "unaddedexpansion:end_respawn_anchor"
+            ],
+            "state": {
+              "charges": "4"
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:ender_pearl"
+          ]
+        }
+      }
+    }
+  }
+}

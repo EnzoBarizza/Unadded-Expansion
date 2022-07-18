@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "vanillalike:emerald_hoe",
+    "vanillalike:amethyst_hoe",
+    "minecraft:diamond_hoe"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "vanillalike:emerald_helmet",
+    "vanillalike:amethyst_helmet",
+    "minecraft:diamond_helmet"
+  ]
+}

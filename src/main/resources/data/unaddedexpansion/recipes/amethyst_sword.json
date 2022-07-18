@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " # ",
+    " I "
+  ],
+  "key": {
+    "#": {
+      "item": "unaddedexpansion:amethyst_gem"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "unaddedexpansion:amethyst_sword"
+  }
+}

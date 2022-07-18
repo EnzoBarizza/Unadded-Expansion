@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "unaddedexpansion:amethyst_gem"
+    }
+  },
+  "result": {
+    "item": "unaddedexpansion:amethyst_helmet"
+  }
+}

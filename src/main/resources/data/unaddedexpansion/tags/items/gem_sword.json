@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "vanillalike:emerald_sword",
+    "vanillalike:amethyst_sword",
+    "minecraft:diamond_sword"
+  ]
+}

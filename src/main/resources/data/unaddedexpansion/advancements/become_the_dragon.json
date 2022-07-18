@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:story/enter_the_end",
+  "display": {
+    "icon": {
+      "item": "unaddedexpansion:dragon_scale_chestplate"
+    },
+    "title": {
+      "translate": "advancements.become_the_dragon.title"
+    },
+    "description": {
+      "translate": "advancements.become_the_dragon.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 100
+  },
+  "criteria": {
+    "netherite_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "unaddedexpansion:dragon_scale_helmet"
+            ]
+          },
+          {
+            "items": [
+              "unaddedexpansion:dragon_scale_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "unaddedexpansion:dragon_scale_leggings"
+            ]
+          },
+          {
+            "items": [
+              "unaddedexpansion:dragon_scale_boots"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

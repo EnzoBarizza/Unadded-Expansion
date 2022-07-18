@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "vanillalike:emerald_shovel",
+    "vanillalike:amethyst_shovel",
+    "minecraft:diamond_shovel"
+  ]
+}
